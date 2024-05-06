@@ -30,6 +30,7 @@ import {
   UserX2Icon,
   X,
 } from "lucide-react";
+import { FaGoogle } from "react-icons/fa";
 
 export type Icon = LucideIcon;
 
@@ -77,6 +78,7 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  google: FaGoogle,
   twitter: Twitter,
   check: Check,
 };
